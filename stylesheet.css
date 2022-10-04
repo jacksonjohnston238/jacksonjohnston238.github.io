@@ -1,11 +1,14 @@
-body {
-    background-color: rgb(33, 125, 156);
-}
 
 h1 {
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-#wordToChange {
+.wrapper {
+    background: aquamarine;
+}
+
+#adjective {
+    font-family: "Comic Sans MS";
     color: red;
 }

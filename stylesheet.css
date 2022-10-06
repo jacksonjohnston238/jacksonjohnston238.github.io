@@ -1,14 +1,78 @@
 
-h1 {
+body {
+    background: lightgrey;
+}
+
+h3 {
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    border-radius: 25px;
+    height: 239px;
+    width: 390px;
+    margin: 25px;
 }
 
 .wrapper {
-    background: aquamarine;
+    text-align: center;
+    
 }
 
-#adjective {
-    font-family: "Comic Sans MS";
+
+.welcome {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 25px 50px;
+    width: fit-content;
+    background: darkgrey;
+    border-radius: 25px;
+}
+
+.personal_info {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    background: darkgrey;
+    padding: 25px 50px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+
+.dog_info {
+    background: darkgrey;
+    padding: 25px 50px;
+    margin-top: 315px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+.link:hover {
     color: red;
 }
+
+#left_info {
+    float: left;
+}
+
+#right_info {
+    float: right;
+}
+
+#name_in_title {
+    text-align: center;
+}
+
+#name {
+    font-weight: bold;
+}
+
+
